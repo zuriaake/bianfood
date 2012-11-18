@@ -24,9 +24,9 @@
 		<div class="container">
 			<div class="breadcrumb-box">
 				<ul class="breadcrumb">
-					<li><a href="#">首页</a> <span class="divider">/</span></li>
-				    <li><a href="#">资讯中心</a> <span class="divider">/</span></li>
-					<li class="active">列表</li>
+					<li><a href="/">首页</a> <span class="divider">/</span></li>
+				    <li><a href="/company">走进彼岸</a> <span class="divider">/</span></li>
+					<li class="active">{$article.title}</li>
 				</ul>
 			</div>
 			<div class="article-list-page clearfix">
