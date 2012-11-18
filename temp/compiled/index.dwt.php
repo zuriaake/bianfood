@@ -24,7 +24,7 @@
     <div id="content" style="background:#fff;">
 		<div class="container">
 			<div class="index-page">
-				<div id="myCarousel" class="carousel slide">
+				<div id="focusBanner" class="carousel slide">
 					<div class="carousel-inner">
 						<div class="active item">
 							<img src="/assets/img/index-banner-2.jpg" width="990px">
@@ -33,8 +33,8 @@
 							<img src="/assets/img/index-banner-1.jpg" width="990px">
 						</div>
 					</div>
-					<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+					<a class="carousel-control left" href="#focusBanner" data-slide="prev">&lsaquo;</a>
+					<a class="carousel-control right" href="#focusBanner" data-slide="next">&rsaquo;</a>
 				</div>
 			</div>
 		</div>

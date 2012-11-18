@@ -4,6 +4,7 @@ $(document).ready(function(){
 		init: function(){
 			var _self = this;
 			_self.init_header();
+			$('.carousel').carousel({interval: 2000});
 		},
 		init_header : function(){
 			$('#nav .menu li:has(ul)').hover(function(){

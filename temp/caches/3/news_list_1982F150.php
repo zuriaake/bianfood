@@ -1,11 +1,11 @@
-<?php exit;?>a:3:{s:8:"template";a:4:{i:0;s:57:"/Users/cgeek/Sites/bianfood/themes/bianfood/news_list.dwt";i:1;s:67:"/Users/cgeek/Sites/bianfood/themes/bianfood/library/page_header.lbi";i:2;s:61:"/Users/cgeek/Sites/bianfood/themes/bianfood/library/pages.lbi";i:3;s:67:"/Users/cgeek/Sites/bianfood/themes/bianfood/library/page_footer.lbi";}s:7:"expires";i:1353220398;s:8:"maketime";i:1353216798;}<!DOCTYPE html>
+<?php exit;?>a:3:{s:8:"template";a:4:{i:0;s:57:"/Users/cgeek/Sites/bianfood/themes/bianfood/news_list.dwt";i:1;s:67:"/Users/cgeek/Sites/bianfood/themes/bianfood/library/page_header.lbi";i:2;s:61:"/Users/cgeek/Sites/bianfood/themes/bianfood/library/pages.lbi";i:3;s:67:"/Users/cgeek/Sites/bianfood/themes/bianfood/library/page_footer.lbi";}s:7:"expires";i:1353224757;s:8:"maketime";i:1353221157;}<!DOCTYPE html>
 <html lang="zh">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="Keywords" content="" />
 	<meta name="Description" content="" />
-    <title>ç¼¤çº·å½¼å²¸ - Powered by ECShop</title>
+    <title>缤纷彼岸</title>
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="icon" href="animated_favicon.gif" type="image/gif" />
     <link type="text/css" rel="stylesheet" href="/assets/css/bootstrap.css">
@@ -115,13 +115,15 @@ function selectPage(sel)
     </div>
 <div id="footer">
  <div class="text">
- &copy; 2005-2012 ç¼¤çº·å½¼å²¸é£Ÿå“ 版权所有，并保留所有权利。<br />
+	<ul class="footer_about clearfix">
+		<li><a href="/about/">关于我们</a></li>
+		<li><a href="/about/">商务合作</a></li>
+		<li><a href="/about/">人才招聘</a></li>
+		<li><a href="/about/">联系我们</a></li>
+	</ul>
+ &copy; 2005-2012 缤纷彼岸食品 版权所有，并保留所有权利。<br />
                                                                                      <br />
-    554fcae493e564ee0dc75bdf2ebf94caquery_info|a:1:{s:4:"name";s:10:"query_info";}554fcae493e564ee0dc75bdf2ebf94ca<br />
-  <a href="http://www.ecshop.com" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v2.7.3</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Ftest.bianfood.com%2Fnews.php%2F" target="_blank"
->&nbsp;&nbsp;Licensed</a><br />
-        <div align="left"  id="rss"><a href="feed.php?type=article_cat15"><img src="themes/bianfood/images/xml_rss2.gif" alt="rss" /></a></div>
- </div>
+       </div>
 </div>
 </body>
 </html>

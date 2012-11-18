@@ -26,7 +26,8 @@
 .sidebar .sidebar-body li { list-style:none; padding:5px 0;}
 .sidebar .sidebar-footer {width:190px; height:35px;background:url('../img/sidebar-footer.png') no-repeat; }
 
-.main {width:780px; min-height:500px;background:#fff;float:right;border-radius:10px;}
+#focusBanner {height:340px; overflow:hidden;}
+.main {width:780px; min-height:300px;background:#fff;float:right;border-radius:10px;}
 .main .list-hd {background:#cfeef8; width:100%; height:45px; margin:0; padding:0;}
 .main .list-hd li {list-style:none; height:40px; line-height:40px; min-width:80px; text-align:center;background:#b2dbea; float:left;display:block;padding:0 10px; margin:5px 5px 0 5px;}
 .main .list-hd li:first-child {margin-left:10px;}
@@ -37,7 +38,13 @@
 .main .article-list li a { color:#555;}
 .main .article-list li a:hover { color:#08C; text-decoration:none;}
 
+.pagebar span.f6 { float:right; font-size:12px; }
+
 .main .article-hd {text-align:center;width:100%;}
 .main .article-hd h2 { font-size:17px;}
 .main .article-bd {padding:20px;}
-#footer .text{ width:990px; margin:0 auto;}
+
+
+#footer .text{ width:990px; margin:0 auto; color:#555; font-size:12px; text-align:center; padding-top:10px; border-top:1px solid #eee;}
+#footer .text .footer_about {width:100%; text-align:center;margin:0;}
+#footer .text .footer_about li{ list-style:none;display:inline; padding: 0 10px;}

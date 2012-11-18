@@ -1,6 +1,12 @@
 
 <div id="footer">
  <div class="text">
+	<ul class="footer_about clearfix">
+		<li><a href="/about/">关于我们</a></li>
+		<li><a href="/about/">商务合作</a></li>
+		<li><a href="/about/">人才招聘</a></li>
+		<li><a href="/about/">联系我们</a></li>
+	</ul>
  <?php echo $this->_var['copyright']; ?><br />
  <?php echo $this->_var['shop_address']; ?> <?php echo $this->_var['shop_postcode']; ?>
  <?php if ($this->_var['service_phone']): ?>
@@ -47,19 +53,9 @@
   <?php if ($this->_var['icp_number']): ?>
   <?php echo $this->_var['lang']['icp_number']; ?>:<a href="http://www.miibeian.gov.cn/" target="_blank"><?php echo $this->_var['icp_number']; ?></a><br />
   <?php endif; ?>
-  <?php 
-$k = array (
-  'name' => 'query_info',
-);
-echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
-?><br />
-  <?php $_from = $this->_var['lang']['p_y']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'pv');if (count($_from)):
-    foreach ($_from AS $this->_var['pv']):
-?><?php echo $this->_var['pv']; ?><?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?><?php echo $this->_var['licensed']; ?><br />
     <?php if ($this->_var['stats_code']): ?>
     <div align="left"><?php echo $this->_var['stats_code']; ?></div>
     <?php endif; ?>
-    <div align="left"  id="rss"><a href="<?php echo $this->_var['feed_url']; ?>"><img src="themes/bianfood/images/xml_rss2.gif" alt="rss" /></a></div>
  </div>
 </div>
 

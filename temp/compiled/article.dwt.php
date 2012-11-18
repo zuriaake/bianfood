@@ -11,7 +11,6 @@
 
     <link type="text/css" rel="stylesheet" href="/assets/css/bootstrap.css">
     <link type="text/css" rel="stylesheet" href="/assets/css/base.css">
-	<link href="/<?php echo $this->_var['ecs_css_path']; ?>" rel="stylesheet" type="text/css" />
 	<script src="http://lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js"></script>
 	<script src="/assets/js/bootstrap.js"></script>
 	<script src="/assets/js/core.js"></script>
