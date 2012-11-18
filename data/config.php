@@ -1,15 +1,15 @@
 <?php
 // database host
-$db_host   = "127.0.0.1:3306";
+$db_host   = "106.187.39.131:3306";
 
 // database name
 $db_name   = "bianfood";
 
 // database username
-$db_user   = "root";
+$db_user   = "bianfood";
 
 // database password
-$db_pass   = "123456";
+$db_pass   = "bianfood123";
 
 // table prefix
 $prefix    = "ecs_";

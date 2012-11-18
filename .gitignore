@@ -1,3 +1,2 @@
-assets/
-protected/runtime/
-themes/classic/views/
+data/config.php
+temp
