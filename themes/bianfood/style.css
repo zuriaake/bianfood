@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,form,img,p{
 margin:0; padding:0; border:none; list-style-type:none;
 }
 .block{
-  width:960px; height:auto;
+  width:990px; height:auto;
 }
 .f_l{float:left;}
 .f_r{float:right;}
@@ -106,7 +106,7 @@ visibility:hidden;
   .blank5{height:5px; line-height:5px;/* _margin:-3px 0;*/ clear:both; visibility:hidden;}
   /*布局*/
   .AreaL{width:200px; float:left; margin-right:10px;}
-  .AreaR{width:750px; float:left;}
+  .AreaR{width:780px; float:left;}
 
 /* ====================
      导航部分
@@ -430,9 +430,6 @@ visibility:hidden;
    .bNavList img{_position:relative; top:8px;}
    .links img{width:88px; height:30px; margin:5px;}
    /*版权*/
-   #footer{background:url(images/logo1.gif) no-repeat 5% 50%; padding-left:200px; width:760px; margin:10px auto;}
-   #footer .text{background:url(images/footerLine.gif) no-repeat left center; padding-left:50px; *padding-bottom:20px;}
-   #footer .text a{color:#404040; text-decoration:none;}
 
 
 /* ======商品比较浮动块 ====== */
