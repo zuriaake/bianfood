@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="Keywords" content="{$keywords}" />
+	<meta name="Description" content="{$description}" />
+    <title>{$page_title}</title>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+
+    <link type="text/css" rel="stylesheet" href="/assets/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="/assets/css/base.css">
+	<script src="http://lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js"></script>
+	<script src="/assets/js/bootstrap.js"></script>
+	<script src="/assets/js/core.js"></script>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+    <div id="content">
+		<div class="container">
+			<div class="breadcrumb-box">
+				<ul class="breadcrumb">
+					<li><a href="/">首页</a> <span class="divider">/</span></li>
+				    <li><a href="/news">资讯中心</a> <span class="divider">/</span></li>
+					<li class="active">{$current_cat.page_name_cn}</li>
+				</ul>
+			</div>
+			<div class="article-list-page clearfix">
+				<div class="sidebar">
+					<div class="sidebar-box">
+						<div class="sidebar-hd">
+						</div>
+						<div class="sidebar-body">
+							<h2>资讯中心</h2>
+							<ul>
+								<li><a href="/news/company.html">公司动态</a></li>
+								<li><a href="/news/industry.html">行业资讯</a></li>
+								<li><a href="/news/media.html">媒体关注</a></li>
+							</ul>
+						</div>
+						<div class="sidebar-footer"></div>
+					</div>
+				</div>
+				<div class="main">
+					<ul class="list-hd">
+						<li class="active">{$current_cat.page_name_cn}</li>
+					</ul>
+					<ul class="article-list">
+					<!-- {foreach from=$artciles_list item=article} -->
+						<li> <a href="/article.php?id={$article.id}" >【{$article.add_time}】 {$article.short_title|truncate:55:true}</a></li>
+					<!-- {/foreach} -->
+					</ul>
+					<!-- #BeginLibraryItem "/library/pages.lbi" --><!-- #EndLibraryItem -->
+				</div>
+			</div>
+		</div>
+    </div>
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+</body>
+</html>
