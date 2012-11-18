@@ -126,7 +126,7 @@ if(isset($article) && $article['cat_id'] > 2)
 }
 else
 {
-    $smarty->display('article_pro.dwt', $cache_id);
+    $smarty->display('article.dwt', $cache_id);
 }
 
 /*------------------------------------------------------ */

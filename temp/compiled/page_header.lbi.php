@@ -26,9 +26,9 @@
 		    <li class="color4">
 				<a href="/goods">产品展示</a>
 				<ul class="sub-nav">
-					<li><a href="/goods/">饮料系列</a></li>
-					<li><a href="">休闲系列</a></li>
-					<li><a href="">礼品系列</a></li>
+					<li><a href="/goods/drink.html">饮料系列</a></li>
+					<li><a href="/goods/snack.html">休闲系列</a></li>
+					<li><a href="/goods/gift.html">礼品系列</a></li>
 				</ul>
 				
 			</li>

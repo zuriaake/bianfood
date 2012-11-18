@@ -25,7 +25,11 @@
 			<div class="breadcrumb-box">
 				<ul class="breadcrumb">
 					<li><a href="/">首页</a> <span class="divider">/</span></li>
-					<li><a href="/">{$ur_here}</a> <span class="divider">/</span></li>
+				<!-- {if $breadcrumbs } -->
+					<!-- {foreach from=$breadcrumbs item=breadcrumb } -->
+					<li><a href="{$breadcrumb.url}">{$breadcrumb.cat}</a> <span class="divider">/</span></li>
+					<!-- {/foreach} -->
+				<!-- {/if} -->
 					<li class="active">{$article.title}</li>
 				</ul>
 			</div>
@@ -35,12 +39,31 @@
 						<div class="sidebar-hd">
 						</div>
 						<div class="sidebar-body">
+					<!-- {if $article.cat_id == 12 || $article.cat_id == 15 || $article.cat_id == 16 || $article.cat_id == 17} -->
 							<h2>资讯中心</h2>
 							<ul>
 								<li><a href="/news/company.html">公司动态</a></li>
 								<li><a href="/news/industry.html">行业资讯</a></li>
 								<li><a href="/news/media.html">媒体关注</a></li>
 							</ul>
+					<!-- {/if} -->
+					<!-- {if $article.cat_id == 13} -->
+							<h2>走进彼岸</h2>
+							<ul>
+								<li><a href="/company/profile.html">企业概况</a></li>
+								<li><a href="/company/brand.html">品牌解读</a></li>
+								<li><a href="/company/structure.html">组织结构</a></li>
+								<li><a href="/company/vision.html">发展愿景</a></li>
+							</ul>
+					<!-- {/if} -->
+					<!-- {if $article.cat_id == 2} -->
+							<h2>关于我们</h2>
+							<ul>
+								<li><a href="/company/profile.html">联系我们</a></li>
+								<li><a href="/company/brand.html">人才招聘</a></li>
+								<li><a href="/company/structure.html">商务合作</a></li>
+							</ul>
+					<!-- {/if} -->
 						</div>
 						<div class="sidebar-footer"></div>
 					</div>
@@ -49,7 +72,9 @@
 					<div class="article-content">
 						<div class="article-hd">
 							<h2>{$article.title|escape:html}</h2>
+							<!-- {if $article.cat_id > 14 } -->
 							<span class="add-time">{$article.add_time}</span>
+						    <!-- {/if} -->
 						</div>
 						<div class="article-bd">
 							<!-- {if $article.content } -->
